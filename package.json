@@ -1,0 +1,20 @@
+{
+  "name": "teamdocs-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"dev":"next dev -p 3000", "build":"next build", "start":"next start -p 3000", "lint":"next lint"},
+  "dependencies": {
+    "@tiptap/extension-bullet-list":"^2.11.5",
+    "@tiptap/extension-heading":"^2.11.5",
+    "@tiptap/extension-list-item":"^2.11.5",
+    "@tiptap/extension-ordered-list":"^2.11.5",
+    "@tiptap/extension-underline":"^2.11.5",
+    "@tiptap/react":"^2.11.5",
+    "@tiptap/starter-kit":"^2.11.5",
+    "lucide-react":"^0.468.0",
+    "next":"^14.2.21",
+    "react":"^18.3.1",
+    "react-dom":"^18.3.1"
+  },
+  "devDependencies": {"@types/node":"^22.10.2", "@types/react":"^18.3.12", "@types/react-dom":"^18.3.1", "autoprefixer":"^10.4.20", "postcss":"^8.4.49", "tailwindcss":"^3.4.16", "typescript":"^5.7.2"}
+}
