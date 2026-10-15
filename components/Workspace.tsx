@@ -658,13 +658,19 @@ export default function Workspace() {
                   >
                     Copy title
                   </button>
+
                   <button
                     onClick={() => {
-                      if (activeDoc)
+                      if (activeDoc) {
                         createDocument(
-                          activeDoc.content,
+                          activeDoc.content as {
+                            type: string;
+                            content: { type: string }[];
+                          },
                           `${activeDoc.title} copy`,
                         );
+                      }
+
                       setMenuOpen(false);
                     }}
                   >
